@@ -9,8 +9,8 @@ public class kalcTest3 {
 
 	@Test
 	public void ValidTest() {
-		int a = (int)Math.round(kalc.calcSumProc(20, 20, (double)20.0/100));
-		int b =(int) Math.round(27);
+		int a = (int)Math.round(kalc.calcSumProc(85000, 24, (double)20.0/100));
+		int b =(int) Math.round(119000);
 		
 		Assert.assertEquals(a,b);
 	}
